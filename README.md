@@ -10,6 +10,7 @@ https://www.overleaf.com/2774453841kkmkvpbmgtpy#22519f
 
 # Mask code
 ```python
+from matplotlib.path import Path
 # Create mask
 boundary_polygon = Path(np.column_stack([xb, yb]))
 points = np.column_stack([X.ravel(), Y.ravel()])
